@@ -1,0 +1,7 @@
+.DS_Store
+.claude/
+Thumbs.db
+*.swp
+*.swo
+node_modules/
+.env

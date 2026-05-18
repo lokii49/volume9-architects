@@ -1,0 +1,150 @@
+{
+  "projects": [
+    {
+      "id": "01",
+      "name": "Mrs. Vinay Reddy Residence",
+      "category": "Exterior Elevation",
+      "location": "Hyderabad, Telangana",
+      "tags": ["Contemporary", "Residential", "Elevation"],
+      "description": "A contemporary home elevation designed to express elegance through clean geometry, balanced proportions, and refined material contrast. The façade presents a strong vertical composition, layered volumes, and carefully articulated surface details — combining smooth white planes, textured grey surfaces, warm wooden soffits, and decorative terracotta jaali panels to create depth and visual interest.",
+      "images": [
+        "projects/Mrs. Vinay Reddy Residence/WhatsApp Image 2026-04-22 at 15.07.42.jpeg",
+        "projects/Mrs. Vinay Reddy Residence/WhatsApp Image 2026-04-22 at 15.07.42 (1).jpeg"
+      ]
+    },
+    {
+      "id": "02",
+      "name": "Nagole Villa",
+      "category": "Exterior Elevation",
+      "location": "Nagole, Hyderabad",
+      "tags": ["Villa", "Corner Plot", "Warm Modernism"],
+      "description": "A contemporary villa envisioned as a composed architectural experience — a series of carefully framed volumes where light, material, and proportion come together. Defined by intersecting volumes and a strong enclosing frame, the design creates depth and hierarchy. Vertical elements introduce rhythm; recessed planes generate shadow lines that shift throughout the day.",
+      "images": [
+        "projects/nagole villa/WhatsApp Image 2026-04-22 at 16.24.57.jpeg",
+        "projects/nagole villa/WhatsApp Image 2026-04-22 at 16.24.57 (2).jpeg",
+        "projects/nagole villa/WhatsApp Image 2026-04-22 at 16.24.57 (3).jpeg",
+        "projects/nagole villa/WhatsApp Image 2026-04-22 at 16.24.57 (4).jpeg",
+        "projects/nagole villa/WhatsApp Image 2026-04-22 at 16.24.57 (5).jpeg",
+        "projects/nagole villa/WhatsApp Image 2026-04-22 at 16.24.57 (6).jpeg",
+        "projects/nagole villa/WhatsApp Image 2026-04-22 at 16.24.58.jpeg",
+        "projects/nagole villa/WhatsApp Image 2026-04-22 at 16.24.58 (1).jpeg"
+      ]
+    },
+    {
+      "id": "03",
+      "name": "Anjali Residence",
+      "category": "Interior Design",
+      "location": "Nagole, Hyderabad",
+      "tags": ["Interiors", "Contemporary", "Residential"],
+      "description": "A refined expression of modern living where simplicity meets warmth to create a timeless and elegant home. The living area serves as a welcoming social hub, anchored by a thoughtfully designed feature wall and subtle lighting. Bedrooms are crafted as serene personal retreats — each with distinct character while maintaining overall design continuity through minimal palettes and bespoke storage.",
+      "images": [
+        "projects/Nagole HYD/Anjali Nagole/img19.jpg",
+        "projects/Nagole HYD/Anjali Nagole/img22.jpg",
+        "projects/Nagole HYD/Anjali Nagole/img25.jpg",
+        "projects/Nagole HYD/Anjali Nagole/img28.jpg",
+        "projects/Nagole HYD/Anjali Nagole/img31.jpg",
+        "projects/Nagole HYD/Anjali Nagole/img32.jpg",
+        "projects/Nagole HYD/Anjali Nagole/img35.jpg",
+        "projects/Nagole HYD/Anjali Nagole/img38.jpg",
+        "projects/Nagole HYD/Anjali Nagole/img41.jpg",
+        "projects/Nagole HYD/Anjali Nagole/img44.jpg",
+        "projects/Nagole HYD/Anjali Nagole/img47.jpg",
+        "projects/Nagole HYD/Anjali Nagole/img50.jpg",
+        "projects/Nagole HYD/Anjali Nagole/img56.jpg"
+      ]
+    },
+    {
+      "id": "04",
+      "name": "Adilabad Residence",
+      "category": "Interior Design",
+      "location": "Adilabad, Telangana",
+      "tags": ["Luxury Interiors", "Double-Height", "Contemporary"],
+      "description": "A refined exploration of contemporary luxury where spatial drama, material richness, and thoughtful detailing converge. Anchored by a striking double-height living space with sculptural lighting and vertical surface treatments, the design establishes sophistication through the interplay of marble textures, wooden panels, and soft ambient lighting. The upper lounge, bedrooms, and gym complete a versatile, future-ready home.",
+      "images": [
+        "projects/Adilabad/WhatsApp Image 2026-04-18 at 18.31.50.jpeg",
+        "projects/Adilabad/WhatsApp Image 2026-04-18 at 18.31.53.jpeg",
+        "projects/Adilabad/WhatsApp Image 2026-04-18 at 18.32.13.jpeg",
+        "projects/Adilabad/WhatsApp Image 2026-04-18 at 18.32.26.jpeg"
+      ]
+    },
+    {
+      "id": "05",
+      "name": "Mallampet Residence",
+      "category": "Interior Design",
+      "location": "Mallampet, Hyderabad",
+      "tags": ["Interiors", "Neutral Palette", "Layered Lighting"],
+      "description": "A modern interior defined by neutral tones, rich textures, and carefully curated lighting. The design moves beyond aesthetics, focusing on how each space is perceived, experienced, and inhabited — creating a fluid composition where architecture and interiors coexist seamlessly. False ceiling design, integrated lighting, and bespoke furniture elevate the overall spatial experience without excess.",
+      "images": [
+        "projects/Mallampet HYD/WhatsApp Image 2026-04-20 at 11.40.41.jpeg",
+        "projects/Mallampet HYD/WhatsApp Image 2026-04-20 at 11.40.41 (1).jpeg",
+        "projects/Mallampet HYD/WhatsApp Image 2026-04-20 at 11.40.41 (2).jpeg",
+        "projects/Mallampet HYD/WhatsApp Image 2026-04-20 at 11.40.41 (3).jpeg",
+        "projects/Mallampet HYD/WhatsApp Image 2026-04-20 at 11.40.41 (4).jpeg",
+        "projects/Mallampet HYD/WhatsApp Image 2026-04-20 at 11.40.41 (5).jpeg",
+        "projects/Mallampet HYD/WhatsApp Image 2026-04-20 at 11.40.41 (6).jpeg",
+        "projects/Mallampet HYD/WhatsApp Image 2026-04-20 at 11.40.41 (7).jpeg",
+        "projects/Mallampet HYD/WhatsApp Image 2026-04-20 at 11.40.41 (8).jpeg",
+        "projects/Mallampet HYD/WhatsApp Image 2026-04-20 at 11.40.42.jpeg",
+        "projects/Mallampet HYD/WhatsApp Image 2026-04-20 at 11.40.42 (1).jpeg",
+        "projects/Mallampet HYD/WhatsApp Image 2026-04-20 at 11.40.42 (2).jpeg",
+        "projects/Mallampet HYD/WhatsApp Image 2026-04-20 at 11.40.42 (3).jpeg"
+      ]
+    },
+    {
+      "id": "06",
+      "name": "Urban Residence",
+      "category": "Exterior Elevation",
+      "location": "Hyderabad, Telangana",
+      "tags": ["Urban", "Vertical", "Stone & Wood"],
+      "description": "A sculpted composition of volumes where architecture is shaped not just by form, but by the way light interacts with it. A monolithic stone-clad feature wall anchors the design, catching light and casting shadows that evolve throughout the day. The glass-enclosed stair volume becomes a moment of transparency, while balconies extend outward as green pockets — blurring the boundary between built form and nature.",
+      "images": [
+        "projects/Urban Residence/WhatsApp Image 2026-04-24 at 11.29.33.jpeg",
+        "projects/Urban Residence/WhatsApp Image 2026-04-24 at 11.29.33 (1).jpeg",
+        "projects/Urban Residence/WhatsApp Image 2026-04-24 at 11.29.33 (2).jpeg"
+      ]
+    },
+    {
+      "id": "07",
+      "name": "Villa Elevation — 01",
+      "category": "Exterior Elevation",
+      "location": "Hyderabad, Telangana",
+      "tags": ["Villa", "Minimalist", "Horizontal Lines"],
+      "description": "A contemporary villa design embodying clarity of form, refined materiality, and balanced architectural composition. Strong horizontal lines and clean vertical accents create a modern yet timeless visual identity. The façade features a sophisticated interplay of smooth white surfaces, dark accent frames, and warm wooden elements — vertical louvers and textured panels introducing rhythm while maintaining a minimalist aesthetic.",
+      "images": [
+        "projects/Villa Elevation (Villa 01)/WhatsApp Image 2026-04-22 at 15.29.35.jpeg",
+        "projects/Villa Elevation (Villa 01)/WhatsApp Image 2026-04-22 at 15.29.35 (1).jpeg",
+        "projects/Villa Elevation (Villa 01)/WhatsApp Image 2026-04-22 at 15.29.35 (2).jpeg"
+      ]
+    },
+    {
+      "id": "08",
+      "name": "Rakesh Goud Residence",
+      "category": "Interior Design",
+      "location": "Hyderabad, Telangana",
+      "tags": ["Interiors", "Sculptural Staircase", "Double-Height"],
+      "description": "A fluid composition of spaces where architecture and interiors create a seamless living experience. At its heart lies a dramatic double-height volume with a sculptural staircase and cascading chandelier. The living, dining, and kitchen areas unfold as a continuous environment — balanced through clean lines, warm materials, and subtle lighting. Details are carefully considered, from bespoke wardrobes to layered lighting that shapes mood throughout.",
+      "images": [
+        "projects/Rakesh Goud Residence Interiors/WhatsApp Image 2026-04-24 at 16.41.07.jpeg",
+        "projects/Rakesh Goud Residence Interiors/WhatsApp Image 2026-04-24 at 16.41.07 (1).jpeg",
+        "projects/Rakesh Goud Residence Interiors/WhatsApp Image 2026-04-24 at 16.41.08.jpeg",
+        "projects/Rakesh Goud Residence Interiors/WhatsApp Image 2026-04-24 at 16.41.08 (1).jpeg",
+        "projects/Rakesh Goud Residence Interiors/WhatsApp Image 2026-04-24 at 16.41.08 (2).jpeg",
+        "projects/Rakesh Goud Residence Interiors/WhatsApp Image 2026-04-24 at 16.41.08 (3).jpeg",
+        "projects/Rakesh Goud Residence Interiors/WhatsApp Image 2026-04-24 at 16.41.08 (4).jpeg",
+        "projects/Rakesh Goud Residence Interiors/WhatsApp Image 2026-04-24 at 16.41.08 (5).jpeg",
+        "projects/Rakesh Goud Residence Interiors/WhatsApp Image 2026-04-24 at 16.41.08 (6).jpeg",
+        "projects/Rakesh Goud Residence Interiors/WhatsApp Image 2026-04-24 at 16.41.08 (7).jpeg",
+        "projects/Rakesh Goud Residence Interiors/WhatsApp Image 2026-04-24 at 16.41.08 (8).jpeg",
+        "projects/Rakesh Goud Residence Interiors/WhatsApp Image 2026-04-24 at 16.41.08 (9).jpeg",
+        "projects/Rakesh Goud Residence Interiors/WhatsApp Image 2026-04-24 at 16.48.18.jpeg",
+        "projects/Rakesh Goud Residence Interiors/WhatsApp Image 2026-04-24 at 16.48.18 (1).jpeg",
+        "projects/Rakesh Goud Residence Interiors/WhatsApp Image 2026-04-24 at 16.48.18 (2).jpeg",
+        "projects/Rakesh Goud Residence Interiors/WhatsApp Image 2026-04-24 at 16.48.18 (3).jpeg",
+        "projects/Rakesh Goud Residence Interiors/WhatsApp Image 2026-04-24 at 16.48.18 (4).jpeg",
+        "projects/Rakesh Goud Residence Interiors/WhatsApp Image 2026-04-24 at 16.48.18 (5).jpeg",
+        "projects/Rakesh Goud Residence Interiors/WhatsApp Image 2026-04-24 at 16.48.18 (6).jpeg",
+        "projects/Rakesh Goud Residence Interiors/WhatsApp Image 2026-04-24 at 16.48.18 (7).jpeg"
+      ]
+    }
+  ]
+}

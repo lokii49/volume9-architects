@@ -1,0 +1,62 @@
+backend:
+  name: github
+  repo: lokii49/volume9-architects
+  branch: main
+  auth_type: pkce
+  # app_id: REPLACE_WITH_YOUR_GITHUB_OAUTH_CLIENT_ID
+
+locale: en
+
+media_folder: projects/uploads
+public_folder: projects/uploads
+
+collections:
+  - name: projects
+    label: Projects
+    label_singular: Project
+    files:
+      - label: All Projects
+        name: projects
+        file: data/projects.json
+        fields:
+          - label: Projects
+            name: projects
+            widget: list
+            summary: "{{fields.id}} — {{fields.name}}"
+            fields:
+              - label: ID
+                name: id
+                widget: string
+                hint: "Two-digit number, e.g. 09"
+              - label: Project Name
+                name: name
+                widget: string
+              - label: Category
+                name: category
+                widget: select
+                options:
+                  - Exterior Elevation
+                  - Interior Design
+              - label: Location
+                name: location
+                widget: string
+                hint: "e.g. Hyderabad, Telangana"
+              - label: Description
+                name: description
+                widget: text
+              - label: Tags
+                name: tags
+                widget: list
+                field:
+                  label: Tag
+                  name: tag
+                  widget: string
+                hint: "Short labels, e.g. Villa, Double-Height, Stone & Wood"
+              - label: Images
+                name: images
+                widget: list
+                field:
+                  label: Image
+                  name: image
+                  widget: image
+                hint: "First image is shown as the project card thumbnail"

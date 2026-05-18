@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Volume 9 Architects — Architecture & Interior Design, Hyderabad</title>
+  <meta name="description" content="Volume 9 Architects — A Hyderabad-based architecture and interior design studio committed to creating enduring spaces through warm modernism, material restraint, and spatial experience." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════ NAVIGATION ═══════════════ -->
+  <nav id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <img src="logo.jpg" alt="Volume 9 Architects" class="nav-logo-img" />
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#about" class="nav-link">Studio</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section id="hero">
+    <div class="hero-left">
+      <div class="hero-content">
+        <div class="hero-eyebrow" data-anim="fade-up" data-delay="200">
+          <span class="eyebrow-line"></span>
+          <span>Hyderabad, India · Est. 2024</span>
+        </div>
+        <h1 class="hero-title">
+          <span class="hero-word" data-anim="fade-up" data-delay="400">Architecture</span>
+          <em class="hero-word hero-italic" data-anim="fade-up" data-delay="550">that endures.</em>
+        </h1>
+        <p class="hero-descriptor" data-anim="fade-up" data-delay="750">
+          A studio devoted to spaces shaped by light,<br>material, and the passage of time.
+        </p>
+        <a href="#projects" class="hero-cta" data-anim="fade-up" data-delay="950">
+          <span>View Projects</span>
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3.75 9h10.5M9 3.75 14.25 9 9 14.25" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+      <div class="hero-counter" data-anim="fade-up" data-delay="1100">
+        <span class="hero-count-num">08</span>
+        <span class="hero-count-label">Projects</span>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-reel" id="heroReel">
+        <div class="reel-slide active" style="background-image:url('projects/nagole villa/WhatsApp Image 2026-04-22 at 16.24.57.jpeg')"></div>
+        <div class="reel-slide" style="background-image:url('projects/Villa Elevation (Villa 01)/WhatsApp Image 2026-04-22 at 15.29.35.jpeg')"></div>
+        <div class="reel-slide" style="background-image:url('projects/Urban Residence/WhatsApp Image 2026-04-24 at 11.29.33.jpeg')"></div>
+        <div class="reel-slide" style="background-image:url('projects/Rakesh Goud Residence Interiors/WhatsApp Image 2026-04-24 at 16.41.08 (5).jpeg')"></div>
+      </div>
+      <div class="hero-right-overlay"></div>
+      <div class="hero-reel-counter" id="reelCounter">
+        <span id="reelCurrent">01</span>
+        <span class="reel-sep"></span>
+        <span>04</span>
+      </div>
+    </div>
+    <div class="hero-scroll-hint" data-anim="fade-up" data-delay="1300">
+      <div class="scroll-track"><div class="scroll-thumb"></div></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ═══════════════ MARQUEE ═══════════════ -->
+  <div class="marquee-bar">
+    <div class="marquee-track" aria-hidden="true">
+      <div class="marquee-reel">
+        <span>Warm Modernism</span><span class="m-dot">·</span>
+        <span>Material Restraint</span><span class="m-dot">·</span>
+        <span>Light as Architecture</span><span class="m-dot">·</span>
+        <span>Timeless Form</span><span class="m-dot">·</span>
+        <span>Spatial Experience</span><span class="m-dot">·</span>
+        <span>Warm Modernism</span><span class="m-dot">·</span>
+        <span>Material Restraint</span><span class="m-dot">·</span>
+        <span>Light as Architecture</span><span class="m-dot">·</span>
+        <span>Timeless Form</span><span class="m-dot">·</span>
+        <span>Spatial Experience</span><span class="m-dot">·</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════ PROJECTS ═══════════════ -->
+  <section id="projects">
+    <div class="section-head">
+      <div class="section-head-left">
+        <span class="label">Selected Work</span>
+        <h2 class="section-title" data-reveal>Our Projects</h2>
+      </div>
+      <div class="projects-filter" id="projectsFilter">
+        <button class="f-btn is-active" data-filter="all">All</button>
+        <button class="f-btn" data-filter="Exterior Elevation">Elevation</button>
+        <button class="f-btn" data-filter="Interior Design">Interiors</button>
+      </div>
+    </div>
+    <div class="projects-grid" id="projectsGrid"></div>
+  </section>
+
+  <!-- ═══════════════ ABOUT ═══════════════ -->
+  <section id="about">
+    <div class="about-inner">
+      <div class="about-text">
+        <span class="label label--light" data-reveal>The Studio</span>
+        <h2 class="about-heading" data-reveal data-delay="1">
+          Architecture is not<br>what you see —<br><em>it's what you feel.</em>
+        </h2>
+        <p class="about-body" data-reveal data-delay="2">
+          Volume 9 Architects is a Hyderabad-based studio committed to creating spaces that are modern without being cold, minimal without being empty, and enduring rather than merely current.
+        </p>
+        <p class="about-body" data-reveal data-delay="3">
+          Every project begins with a single question: <em>how should this space feel?</em> The answer shapes everything — from site orientation and material selection to the quality of light at dusk.
+        </p>
+        <div class="about-stats" data-reveal data-delay="4">
+          <div class="stat">
+            <span class="stat-n">08+</span>
+            <span class="stat-l">Projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat-n">2</span>
+            <span class="stat-l">Disciplines</span>
+          </div>
+          <div class="stat">
+            <span class="stat-n">∞</span>
+            <span class="stat-l">Vision</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-founder" data-reveal>
+        <div class="founder-card">
+          <div class="founder-img">
+            <div class="founder-placeholder">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="14" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M6 36c0-7.732 6.268-14 14-14s14 6.268 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+              <span>Founder Photo</span>
+              <span class="ph-sub">Coming Soon</span>
+            </div>
+          </div>
+          <div class="founder-meta">
+            <h3 class="founder-name">Founder & Principal Architect</h3>
+            <p class="founder-role">Volume 9 Architects, Hyderabad</p>
+            <p class="founder-bio">Leading the studio with a vision rooted in warm modernism and material honesty. Each project is an opportunity to craft space that endures beyond trends and serves the people who inhabit it.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CONTACT ═══════════════ -->
+  <section id="contact">
+    <div class="contact-inner">
+      <div class="contact-left">
+        <span class="label" data-reveal>Get in Touch</span>
+        <h2 class="contact-heading" data-reveal data-delay="1">
+          Let's create something<br><em>remarkable together.</em>
+        </h2>
+        <div class="contact-details" data-reveal data-delay="2">
+          <div class="c-item">
+            <span class="c-label">Email</span>
+            <span class="c-value">studio@volume9architects.com</span>
+          </div>
+          <div class="c-item">
+            <span class="c-label">Phone</span>
+            <span class="c-value">+91 &mdash; &mdash; &mdash; &mdash;</span>
+          </div>
+          <div class="c-item">
+            <span class="c-label">Studio</span>
+            <span class="c-value">Hyderabad, Telangana, India</span>
+          </div>
+          <div class="c-item">
+            <span class="c-label">Hours</span>
+            <span class="c-value">Mon – Sat, 10 am – 7 pm</span>
+          </div>
+        </div>
+      </div>
+      <div class="contact-right" data-reveal data-delay="2">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="f-group">
+            <input type="text" id="fname" name="name" placeholder=" " required autocomplete="name" />
+            <label for="fname">Your Name</label>
+          </div>
+          <div class="f-group">
+            <input type="email" id="femail" name="email" placeholder=" " required autocomplete="email" />
+            <label for="femail">Email Address</label>
+          </div>
+          <div class="f-group">
+            <input type="text" id="fproject" name="project" placeholder=" " />
+            <label for="fproject">Project Type</label>
+          </div>
+          <div class="f-group f-group--area">
+            <textarea id="fmessage" name="message" placeholder=" " rows="4" required></textarea>
+            <label for="fmessage">Project Brief</label>
+          </div>
+          <button type="submit" class="btn-send" id="btnSend">
+            <span class="btn-text">Send Message</span>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3.75 9h10.5M9 3.75 14.25 9 9 14.25" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="logo.jpg" alt="Volume 9 Architects" class="footer-logo-img" />
+      </div>
+      <p class="footer-tag">Architecture · Interiors · Experience</p>
+      <p class="footer-copy">&copy; 2026 Volume 9 Architects. All rights reserved. Hyderabad, India.</p>
+    </div>
+  </footer>
+
+  <!-- ═══════════════ PROJECT MODAL ═══════════════ -->
+  <div id="modal" class="modal" aria-modal="true" aria-hidden="true" role="dialog">
+    <button class="modal-close" id="modalClose" aria-label="Close project">
+      <span></span><span></span>
+    </button>
+    <div class="modal-body">
+      <div class="modal-gallery" id="modalGallery">
+        <div class="gallery-slides" id="gallerySlides"></div>
+        <button class="gallery-btn gallery-btn--prev" id="galleryPrev" aria-label="Previous image">
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M14 17l-6-6 6-6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button class="gallery-btn gallery-btn--next" id="galleryNext" aria-label="Next image">
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M8 5l6 6-6 6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="gallery-dots" id="galleryDots"></div>
+        <div class="gallery-idx">
+          <span id="gCurrent">01</span><span class="g-sep">/</span><span id="gTotal">01</span>
+        </div>
+      </div>
+      <div class="modal-info">
+        <div class="mi-top">
+          <span class="mi-num" id="miNum">01</span>
+          <span class="mi-cat" id="miCat">Elevation</span>
+        </div>
+        <h2 class="mi-title" id="miTitle">Project</h2>
+        <p class="mi-loc" id="miLoc">Location</p>
+        <div class="mi-divider"></div>
+        <p class="mi-desc" id="miDesc"></p>
+        <div class="mi-tags" id="miTags"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
