@@ -2,8 +2,7 @@ backend:
   name: github
   repo: lokii49/volume9-architects
   branch: main
-  auth_type: pkce
-  app_id: Ov23liZiy6WICxDdpnZf
+  base_url: https://REPLACE_WITH_YOUR_WORKER_URL.workers.dev
 
 locale: en
 
