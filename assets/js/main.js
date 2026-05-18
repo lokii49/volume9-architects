@@ -274,12 +274,36 @@ function initCardReveal() {
   const btn  = document.getElementById('btnSend');
   if (!form) return;
 
-  form.addEventListener('submit', e => {
+  form.addEventListener('submit', async e => {
     e.preventDefault();
     const text = btn.querySelector('.btn-text');
-    btn.classList.add('is-sent');
-    text.textContent = 'Message Sent ✓';
-    setTimeout(() => { btn.classList.remove('is-sent'); text.textContent = 'Send Message'; form.reset(); }, 4000);
+    btn.disabled = true;
+    text.textContent = 'Sending…';
+
+    try {
+      const res = await fetch('https://formspree.io/f/xredgwla', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(form),
+      });
+
+      if (res.ok) {
+        btn.classList.add('is-sent');
+        text.textContent = 'Message Sent ✓';
+        form.reset();
+        setTimeout(() => {
+          btn.classList.remove('is-sent');
+          text.textContent = 'Send Message';
+          btn.disabled = false;
+        }, 4000);
+      } else {
+        text.textContent = 'Failed — try again';
+        btn.disabled = false;
+      }
+    } catch {
+      text.textContent = 'Failed — try again';
+      btn.disabled = false;
+    }
   });
 })();
 
