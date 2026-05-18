@@ -3,7 +3,7 @@ backend:
   repo: lokii49/volume9-architects
   branch: main
   auth_type: pkce
-  # app_id: REPLACE_WITH_YOUR_GITHUB_OAUTH_CLIENT_ID
+  app_id: Ov23liZiy6WICxDdpnZf
 
 locale: en
 
