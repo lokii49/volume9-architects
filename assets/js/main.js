@@ -281,10 +281,12 @@ function initCardReveal() {
     text.textContent = 'Sending…';
 
     try {
-      const res = await fetch('https://formspree.io/f/xredgwla', {
+      const fd = new FormData(form);
+      fd.append('access_key', '4c0b1f5b-2bae-403f-8895-472fdbbb750d');
+      const res = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: { 'Accept': 'application/json' },
-        body: new FormData(form),
+        body: fd,
       });
 
       if (res.ok) {
