@@ -2,7 +2,7 @@ backend:
   name: github
   repo: lokii49/volume9-architects
   branch: main
-  base_url: https://REPLACE_WITH_YOUR_WORKER_URL.workers.dev
+  base_url: https://volume9-oauth.2qm8vh77mq.workers.dev
 
 locale: en
 
