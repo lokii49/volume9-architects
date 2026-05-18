@@ -289,7 +289,10 @@ function initCardReveal() {
         body: fd,
       });
 
-      if (res.ok) {
+      const data = await res.json();
+      console.log('Web3Forms:', data);
+
+      if (data.success) {
         btn.classList.add('is-sent');
         text.textContent = 'Message Sent ✓';
         form.reset();
