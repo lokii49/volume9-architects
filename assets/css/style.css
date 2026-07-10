@@ -795,6 +795,31 @@ button { cursor: pointer; }
 .btn-send:hover { background: var(--accent); gap: 1.25rem; }
 .btn-send.is-sent { background: #3A6A4A; pointer-events: none; }
 
+.contact-direct {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1rem;
+  margin-top: 1.75rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+.contact-direct-label {
+  font-size: 0.62rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  width: 100%;
+}
+.contact-direct-value {
+  font-size: 0.9rem;
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border);
+  transition: color 0.3s, border-color 0.3s;
+}
+.contact-direct-value:hover { color: var(--accent); border-color: var(--accent); }
+
 /* ─── FOOTER ─────────────────────────────────────────── */
 #footer {
   background: var(--dark);
