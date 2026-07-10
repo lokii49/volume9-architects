@@ -274,6 +274,9 @@ function initCardReveal() {
   const btn  = document.getElementById('btnSend');
   if (!form) return;
 
+  // Cloudflare Worker that forwards submissions to WhatsApp — see whatsapp-worker.js
+  const WHATSAPP_WORKER_URL = 'https://REPLACE-WITH-YOUR-WORKER-URL.workers.dev';
+
   form.addEventListener('submit', async e => {
     e.preventDefault();
     const text = btn.querySelector('.btn-text');
@@ -282,15 +285,15 @@ function initCardReveal() {
 
     try {
       const fd = new FormData(form);
-      fd.append('access_key', '4c0b1f5b-2bae-403f-8895-472fdbbb750d');
-      const res = await fetch('https://api.web3forms.com/submit', {
+      const payload = Object.fromEntries(fd.entries());
+      const res = await fetch(WHATSAPP_WORKER_URL, {
         method: 'POST',
-        headers: { 'Accept': 'application/json' },
-        body: fd,
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
       });
 
       const data = await res.json();
-      console.log('Web3Forms:', data);
+      console.log('WhatsApp forward:', data);
 
       if (data.success) {
         btn.classList.add('is-sent');
