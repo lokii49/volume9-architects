@@ -274,41 +274,38 @@ function initCardReveal() {
   const btn  = document.getElementById('btnSend');
   if (!form) return;
 
-  form.addEventListener('submit', async e => {
+  const WHATSAPP_NUMBER = '917729887245'; // +91 77298 87245
+
+  form.addEventListener('submit', e => {
     e.preventDefault();
-    const text = btn.querySelector('.btn-text');
-    btn.disabled = true;
-    text.textContent = 'Sending…';
+    if (!form.reportValidity()) return;
 
-    try {
-      const fd = new FormData(form);
-      fd.append('access_key', '4c0b1f5b-2bae-403f-8895-472fdbbb750d');
-      const res = await fetch('https://api.web3forms.com/submit', {
-        method: 'POST',
-        headers: { 'Accept': 'application/json' },
-        body: fd,
-      });
+    const fd      = new FormData(form);
+    const name    = (fd.get('name')    || '').toString().trim();
+    const phone   = (fd.get('phone')   || '').toString().trim();
+    const project = (fd.get('project') || '').toString().trim();
+    const message = (fd.get('message') || '').toString().trim();
 
-      const data = await res.json();
-      console.log('Web3Forms:', data);
+    const text = [
+      'New inquiry from volume9architects.in',
+      '',
+      `Name: ${name}`,
+      `Phone: ${phone}`,
+      `Project Type: ${project || '—'}`,
+      '',
+      message,
+    ].join('\n');
 
-      if (data.success) {
-        btn.classList.add('is-sent');
-        text.textContent = 'Message Sent ✓';
-        form.reset();
-        setTimeout(() => {
-          btn.classList.remove('is-sent');
-          text.textContent = 'Send Message';
-          btn.disabled = false;
-        }, 4000);
-      } else {
-        text.textContent = 'Failed — try again';
-        btn.disabled = false;
-      }
-    } catch {
-      text.textContent = 'Failed — try again';
-      btn.disabled = false;
-    }
+    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`, '_blank', 'noopener');
+
+    const btnText = btn.querySelector('.btn-text');
+    btn.classList.add('is-sent');
+    btnText.textContent = 'Opened in WhatsApp ✓';
+    form.reset();
+    setTimeout(() => {
+      btn.classList.remove('is-sent');
+      btnText.textContent = 'Send Message';
+    }, 4000);
   });
 })();
 
